@@ -13,7 +13,7 @@ public class WebUtil {
 		response.sendRedirect(url);
 	}
 
-	public static void forword(String path, HttpServletRequest request, HttpServletResponse response)
+	public static void forward(String path, HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
 		// forwarding
 		RequestDispatcher rd = request.getRequestDispatcher("/WEB-INF/views/form.jsp");
