@@ -8,8 +8,6 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import kr.ac.sungkyul.emaillist.dao.EmailListDao;
-import kr.ac.sungkyul.emaillist.vo.EmailListVo;
 import kr.ac.sungkyul.emaillist.web.EmailListActionFactory;
 import kr.ac.sungkyul.web.Action;
 
